@@ -1,0 +1,38 @@
+.section-mapas {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-mapas h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.map-preview img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.map-link {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #5eb1af;
+    color: #111d3b;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.map-link:hover {
+    background-color: #157270;
+}
